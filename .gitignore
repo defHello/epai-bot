@@ -1,0 +1,35 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Секреты
+.env
+.env.local
+.env.*.local
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+orders.db
+
+# Логи
+bot.log
+bot.log.*
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
